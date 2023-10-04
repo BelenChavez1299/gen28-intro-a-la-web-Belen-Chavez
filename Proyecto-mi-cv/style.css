@@ -1,0 +1,130 @@
+nav {
+    overflow: hidden;
+    background-color: #FF0055;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s; 
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #FF0055;
+  }
+
+
+nav button {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    background: black;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'riffic';
+    font-style: oblique;
+    text-align: center;
+    border: #FF0055;
+    border-radius: 30px;
+}
+
+
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+article {
+    background: black;
+    font-family:'riffic';
+    font-size: large;
+}
+
+.image-profile {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-description {
+    color: white;
+    font-size: large;
+    font-family:'riffic';
+    text-align: center;
+}
+
+footer {
+    background:#FF0055;
+}
+span {
+    color: white;
+    font-size: large;
+    font-family:'riffic';
+}
+
+input {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    background: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'riffic';
+    font-style: oblique;
+    border-radius: 30px;
+
+}
+
+p { 
+    font-family:'riffic';
+    text-align:center;
+}
+
+
+h2 {
+    color: white;
+    font-size: x-large;
+    font-family:'riffic';
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  * {box-sizing:border-box}
+
+.container {
+  width: 30%;
+  background-color: #ddd; 
+  border-radius: 30px;
+  position:relative;
+
+}
+
+.skills {
+  text-align: left; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white;
+}
+
+.Adobe {width: 80%; background-color: #FF0055;} 
+.Office {width: 80%; background-color: #FF0055;} 
+.Ibis {width: 90%; background-color: #f11ba9;} 
+.Autocad {width: 80%; background-color: #f11ba9;} 
